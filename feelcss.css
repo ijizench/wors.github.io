@@ -4,7 +4,6 @@ body {
     background: rgb(231, 35, 94);
     font-family: 'Montserrat', sans-serif;
     color: #fff;
-    width: 100%;
     margin: 0 auto;
 }
 
@@ -25,7 +24,7 @@ h1 {
 
 .container {
     width: 100%;
-    padding: 50px 0;
+    height: 100vh;
     text-align: center;
 }
 
