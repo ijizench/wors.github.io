@@ -4,7 +4,8 @@ body {
     background: rgb(231, 35, 94);
     font-family: 'Montserrat', sans-serif;
     color: #fff;
-     
+    width: 100%;
+    margin: 0 auto;
 }
 
 h1 {
@@ -15,6 +16,12 @@ h1 {
     color: #fff;
     font-size: 50px;
 }
+
+.responsive {
+    width: 100%;
+  max-width: 400px;
+  height: auto;
+  }
 
 .container {
     width: 100%;
@@ -28,7 +35,7 @@ h1 {
 }
 
 .get-compliment img {
-    width: 100%;
+    width: 70%;
   max-width: 400px;
   height: auto;
     cursor: pointer;
