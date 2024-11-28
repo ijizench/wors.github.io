@@ -1,7 +1,10 @@
+let sound_correct = new Audio('sounds effect/correct.mp3');
+
+
 $(document).ready(function() {
 
     function generateCompliment() {
-  
+      sound_correct.play()
       var compliments = [
         "Your smile is contagious.",
         "You look great today.",
@@ -109,7 +112,9 @@ $(document).ready(function() {
   
       document.getElementById("compliment").innerHTML = compliments[randomCompliments];
     } // end function generateCompliment()
-    
+    window.onload = function() {
+      document.getElementById("my_audio").play();
+    }
     $('.get-compliment').on('click', function() {
       generateCompliment();
     });
